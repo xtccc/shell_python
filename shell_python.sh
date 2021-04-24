@@ -3,9 +3,9 @@ test()
 {
 a=$(python3 << END
 if $errorcode == 0:
-    print('seabox init ok')
+    print(' init ok')
 else:
-    print(f'seabox init fail , errorcode is $errorcode')
+    print(f' init fail , errorcode is $errorcode')
 END
 )
 echo  $a
@@ -16,7 +16,7 @@ echo  $a
 
 
 
-#errorcode=$(seabox init -a )
+#errorcode=$( init -a )
 errorcode='12'
 test
 errorcode='0'
