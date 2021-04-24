@@ -1,0 +1,26 @@
+seabox init fail , errorcode is 12
+seabox init ok
+ls 
+ rename foo foo00 foo? 
+ ls 
+ rename foo foo01 foo? 
+ ls 
+ rename foo foo02 foo? 
+
+usage: [-h] [--sum] N [N ...]
+: error: argument N: invalid int value: ''
+
+usage: [-h] [--sum] N [N ...] Process some integers.
+ positional arguments: N an integer for the accumulator
+ optional arguments: -h, --help show this help message and exit --sum sum the integers (default: find the max)
+
+usage: [-h] [--sum] N [N ...] Process some integers.
+ positional arguments: N an integer for the accumulator
+ optional arguments: -h, --help show this help message and exit --sum sum the integers (default: find the max)
+
+usage: [-h] [--sum] N [N ...] Process some integers.
+ positional arguments: N an integer for the accumulator
+ optional arguments: -h, --help show this help message and exit --sum sum the integers (default: find the max)
+
+4
+83
